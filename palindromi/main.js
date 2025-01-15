@@ -6,16 +6,16 @@ let alorap = "";
 
 
 function reverseString(){
-    return parola.split("").reverse("").join("") // [ "o", "s", "s", "o" ]
+    return parola.split("").reverse("").join("")
 }
 
 alorap = reverseString();
 
 
 if (parola === alorap){
-    console.log(La parola ${parola} é palindroma)
+    console.log(`La parola ${parola} é palindroma`)
 } else {
-    console.log(La parola ${parola} non é palindroma)
+    console.log(`La parola ${parola} non é palindroma`)
 }
 
 reverseString(parola)
